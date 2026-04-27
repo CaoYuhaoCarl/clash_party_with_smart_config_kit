@@ -1418,6 +1418,13 @@ function injectRules(config) {
     `DOMAIN-SUFFIX,ixigua.com,${BIZ.CNMEDIA}`,
     `DOMAIN-SUFFIX,pstatp.com,${BIZ.CNMEDIA}`,
     `DOMAIN-SUFFIX,snssdk.com,${BIZ.CNMEDIA}`,
+    // v5.2.2 LOCAL-FIX: 即梦/剪映 Web 及其字节静态资源显式归入国内流媒体，避免漏到 FINAL 走代理
+    `DOMAIN-SUFFIX,jianying.com,${BIZ.CNMEDIA}`,
+    `DOMAIN-SUFFIX,byteimg.com,${BIZ.CNMEDIA}`,
+    `DOMAIN-SUFFIX,draftstatic.com,${BIZ.CNMEDIA}`,
+    `DOMAIN-SUFFIX,vlabstatic.com,${BIZ.CNMEDIA}`,
+    `DOMAIN-SUFFIX,bytednsdoc.com,${BIZ.CNMEDIA}`,
+    `DOMAIN-SUFFIX,bytedance.com,${BIZ.CNMEDIA}`,
     `DOMAIN-SUFFIX,sohu.com,${BIZ.CNMEDIA}`,
     `DOMAIN-SUFFIX,music.163.com,${BIZ.CNMEDIA}`,
     `DOMAIN-SUFFIX,ntes53.netease.com,${BIZ.CNMEDIA}`,
